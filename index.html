@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Generator</title>
-    <link rel="icon" href="/">
+    <link rel="icon" href="./img/haha-img.png">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <div class="container">
+   
         
-        <div class="joke-container">
+    <div class="joke-container" id="joke-container">
+       
             <img src="./img/haha-img.png" alt="img">
-        <p class="jokes">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, nobis magnam. Adipisci ipsum ex aperiam voluptatum pariatur perferendis cum aliquid.
-        </p>
-        <div id="button">
-            <button type="submit">Submit</button>
+        <blockquote id="joke-box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste saepe, perspiciatis voluptatem placeat voluptatum temporibus fuga reiciendis aspernatur vitae sapiente?</blockquote>
+        <div>
+            <button onclick="getJokes(api_url)" type="button" class="btn">Get Random Joke</button>
         </div>
+        
     </div>
-    </div>
+    
     
 
 
